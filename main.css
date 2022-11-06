@@ -1,0 +1,114 @@
+@charset "utf-8";
+body {
+    font-family: Arial, PingFang, 微軟正黑體, 標楷體;
+    background-image: url("images/Starry.jpg");
+    background-size: cover;
+    background-color: rgb(0, 0, 20);
+}
+
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div#container {
+    /* margin: 10px auto; */
+    margin: auto;
+}
+
+div#canvasDiv {
+    position: relative;
+    width: 720px;
+    height: 480px;
+    border: 0;
+    margin: 0 0 1em 0;
+    z-index: -99;
+}
+
+canvas {
+    background-color: rgb(37, 45, 63);
+    margin: 0;
+}
+
+.score {
+    font-family: Arial, PingFangTC-Regular, 微軟正黑體, 標楷體;
+    margin: 0.3em 0 0 0;
+    text-align: center;
+    width: 720px;
+}
+
+div#message {
+    font-family: cursive, Arial, PingFangTC-Regular, 微軟正黑體, 標楷體;
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: 720px;
+    padding: 75px 0 0 0;
+    font-size: 3.4em;
+}
+
+div#title {
+    font-size: 1.2em;
+}
+
+.bfrStart {
+    font-size: 0.6em;
+}
+
+hr {
+    border: 0;
+    margin: 0;
+}
+
+button {
+    border-radius: 15%;
+    background-color: #c4c2c2;
+    transition-duration: 0.4s;
+    border: outset;
+}
+
+button:hover {
+    background-color: #a8a8a8;
+    color: white;
+}
+
+button:active {
+    border: inset;
+}
+
+button#startBtn {
+    padding: 7px 10px;
+}
+
+button#instrucBtn {
+    padding: 9px 12px;
+}
+
+div#instruction {
+    width: 570px;
+    font-size: 0.35em;
+    margin: 0 0 0 41px;
+    padding: 24px 30px;
+    background-color: #abb3c7;
+    border-radius: 7%;
+    border: 4px solid #e4e4e4;
+}
+
+span#badBall {
+    color: #808080;
+}
+
+span#caution {
+    font-weight: bold;
+    color: #f8d2d2;
+}
+
+footer {
+    font-family: Arial, PingFang, 微軟正黑體, 標楷體;
+    width: 720px;
+    color: #969696;
+    text-align: center;
+    font-size: 0.85em;
+}
